@@ -11,7 +11,11 @@ import SwiftUI
 struct SwiftExtensionCheatSheetApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+            .background(.gray.opacity(0.2))
         }
     }
 }

@@ -9,16 +9,47 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack (spacing: 50) {
+            NavigationLink {
+                AnimationAlongPath()
+            } label: {
+                Text("Animation Along Path")
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(RoundedRectangle(cornerRadius: 16).fill(.black))
+            }
+            
+            NavigationLink {
+                ColorExtensionDemo()
+            } label: {
+                Text("Color Extension Demo")
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(RoundedRectangle(cornerRadius: 16).fill(.black))
+            }
+            
+            NavigationLink {
+                DateExtensionDemo()
+            } label: {
+                Text("Date Extension Demo")
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(RoundedRectangle(cornerRadius: 16).fill(.black))
+            }
+
         }
-        .padding()
+        .foregroundStyle(.white)
+        .font(.system(size: 24))
+        .fixedSize(horizontal: true, vertical: false)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
     }
 }
 
 #Preview {
-    ContentView()
+    return NavigationStack {
+        ContentView()
+    }
 }

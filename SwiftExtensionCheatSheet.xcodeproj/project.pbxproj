@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98981EA42C59B4A1000245C2 /* AnimationWithTangent.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98981EA32C59B4A1000245C2 /* AnimationWithTangent.gif */; };
+		98981EA62C59B4AD000245C2 /* AnimationNoTangent.gif in Resources */ = {isa = PBXBuildFile; fileRef = 98981EA52C59B4AD000245C2 /* AnimationNoTangent.gif */; };
+		98981EA82C59B961000245C2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98981EA72C59B961000245C2 /* UIColor+Extension.swift */; };
+		98981EAA2C59B969000245C2 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98981EA92C59B969000245C2 /* Date+Extension.swift */; };
+		98981EAC2C59B99C000245C2 /* ColorExtensionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98981EAB2C59B99C000245C2 /* ColorExtensionDemo.swift */; };
+		98981EAE2C59BAB9000245C2 /* DateExtensionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98981EAD2C59BAB9000245C2 /* DateExtensionDemo.swift */; };
+		98981EB02C59C40E000245C2 /* DateDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 98981EAF2C59C40E000245C2 /* DateDemo.png */; };
+		98981EB22C59C413000245C2 /* ColorDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 98981EB12C59C413000245C2 /* ColorDemo.png */; };
 		98EC48FD2C586220003166DD /* SwiftExtensionCheatSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC48FC2C586220003166DD /* SwiftExtensionCheatSheetApp.swift */; };
 		98EC48FF2C586220003166DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC48FE2C586220003166DD /* ContentView.swift */; };
 		98EC49012C586221003166DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EC49002C586221003166DD /* Assets.xcassets */; };
 		98EC49042C586221003166DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EC49032C586221003166DD /* Preview Assets.xcassets */; };
+		98EC490F2C586269003166DD /* AnimationAlongPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC490E2C586269003166DD /* AnimationAlongPath.swift */; };
+		98EC49112C586275003166DD /* Path+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC49102C586275003166DD /* Path+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98981EA12C59B460000245C2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98981EA22C59B46B000245C2 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		98981EA32C59B4A1000245C2 /* AnimationWithTangent.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AnimationWithTangent.gif; sourceTree = "<group>"; };
+		98981EA52C59B4AD000245C2 /* AnimationNoTangent.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AnimationNoTangent.gif; sourceTree = "<group>"; };
+		98981EA72C59B961000245C2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		98981EA92C59B969000245C2 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		98981EAB2C59B99C000245C2 /* ColorExtensionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensionDemo.swift; sourceTree = "<group>"; };
+		98981EAD2C59BAB9000245C2 /* DateExtensionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionDemo.swift; sourceTree = "<group>"; };
+		98981EAF2C59C40E000245C2 /* DateDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DateDemo.png; sourceTree = "<group>"; };
+		98981EB12C59C413000245C2 /* ColorDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorDemo.png; sourceTree = "<group>"; };
 		98EC48F92C586220003166DD /* SwiftExtensionCheatSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtensionCheatSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EC48FC2C586220003166DD /* SwiftExtensionCheatSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionCheatSheetApp.swift; sourceTree = "<group>"; };
 		98EC48FE2C586220003166DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98EC49002C586221003166DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98EC49032C586221003166DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98EC490E2C586269003166DD /* AnimationAlongPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationAlongPath.swift; sourceTree = "<group>"; };
+		98EC49102C586275003166DD /* Path+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98981EA02C59B448000245C2 /* ReadmeAssets */ = {
+			isa = PBXGroup;
+			children = (
+				98981EA52C59B4AD000245C2 /* AnimationNoTangent.gif */,
+				98981EAF2C59C40E000245C2 /* DateDemo.png */,
+				98981EB12C59C413000245C2 /* ColorDemo.png */,
+				98981EA32C59B4A1000245C2 /* AnimationWithTangent.gif */,
+			);
+			path = ReadmeAssets;
+			sourceTree = "<group>";
+		};
 		98EC48F02C586220003166DD = {
 			isa = PBXGroup;
 			children = (
+				98981EA12C59B460000245C2 /* README.md */,
+				98981EA22C59B46B000245C2 /* .gitignore */,
+				98981EA02C59B448000245C2 /* ReadmeAssets */,
 				98EC48FB2C586220003166DD /* SwiftExtensionCheatSheet */,
 				98EC48FA2C586220003166DD /* Products */,
 			);
@@ -51,6 +87,8 @@
 		98EC48FB2C586220003166DD /* SwiftExtensionCheatSheet */ = {
 			isa = PBXGroup;
 			children = (
+				98EC490D2C586240003166DD /* DemoView */,
+				98EC490A2C58622E003166DD /* Extension */,
 				98EC48FC2C586220003166DD /* SwiftExtensionCheatSheetApp.swift */,
 				98EC48FE2C586220003166DD /* ContentView.swift */,
 				98EC49002C586221003166DD /* Assets.xcassets */,
@@ -65,6 +103,26 @@
 				98EC49032C586221003166DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98EC490A2C58622E003166DD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				98EC49102C586275003166DD /* Path+Extensions.swift */,
+				98981EA72C59B961000245C2 /* UIColor+Extension.swift */,
+				98981EA92C59B969000245C2 /* Date+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		98EC490D2C586240003166DD /* DemoView */ = {
+			isa = PBXGroup;
+			children = (
+				98EC490E2C586269003166DD /* AnimationAlongPath.swift */,
+				98981EAB2C59B99C000245C2 /* ColorExtensionDemo.swift */,
+				98981EAD2C59BAB9000245C2 /* DateExtensionDemo.swift */,
+			);
+			path = DemoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +183,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98981EB02C59C40E000245C2 /* DateDemo.png in Resources */,
+				98981EB22C59C413000245C2 /* ColorDemo.png in Resources */,
+				98981EA62C59B4AD000245C2 /* AnimationNoTangent.gif in Resources */,
 				98EC49042C586221003166DD /* Preview Assets.xcassets in Resources */,
+				98981EA42C59B4A1000245C2 /* AnimationWithTangent.gif in Resources */,
 				98EC49012C586221003166DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98981EAC2C59B99C000245C2 /* ColorExtensionDemo.swift in Sources */,
+				98EC49112C586275003166DD /* Path+Extensions.swift in Sources */,
+				98981EAE2C59BAB9000245C2 /* DateExtensionDemo.swift in Sources */,
 				98EC48FF2C586220003166DD /* ContentView.swift in Sources */,
 				98EC48FD2C586220003166DD /* SwiftExtensionCheatSheetApp.swift in Sources */,
+				98EC490F2C586269003166DD /* AnimationAlongPath.swift in Sources */,
+				98981EA82C59B961000245C2 /* UIColor+Extension.swift in Sources */,
+				98981EAA2C59B969000245C2 /* Date+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
